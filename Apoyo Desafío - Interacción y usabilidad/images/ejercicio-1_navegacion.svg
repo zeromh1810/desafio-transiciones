@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1639px" height="131px" viewBox="0 0 1639 131" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4" transform="translate(63.000000, 19.000000)">
+            <rect id="Rectangle" stroke="#535353" fill="#FFFFFF" x="0.5" y="0.5" width="1513" height="91"></rect>
+            <polygon id="Rectangle" fill="#FF6B6C" transform="translate(88.500000, 46.500000) rotate(-270.000000) translate(-88.500000, -46.500000) " points="68 26 81.3797724 36.8779379 109 26 88.5 46.5 109 67 81.3797724 59.347245 68 67"></polygon>
+            <text id="Contacto" fill="#000000" font-family="OpenSans-Regular, Open Sans" font-size="25" font-weight="normal">
+                <tspan x="1308.11353" y="53">Contacto</tspan>
+            </text>
+            <text id="Productos" fill="#000000" font-family="OpenSans-Regular, Open Sans" font-size="25" font-weight="normal">
+                <tspan x="1138.36304" y="53">Productos</tspan>
+            </text>
+            <text id="Nosotros" fill="#000000" font-family="OpenSans-Regular, Open Sans" font-size="25" font-weight="normal">
+                <tspan x="966.234619" y="53">Nosotros</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

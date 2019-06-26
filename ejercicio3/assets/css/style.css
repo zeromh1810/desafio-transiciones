@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+    font-weight: 700;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1em;
+    color: white;
+    margin: 0;
+    font-weight: 400;
+}
+
+.beach-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.sky {
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(147, 221, 255);
+}
+
+.sky .sky__sun {
+    position: absolute;
+    left: 10%;
+    margin-top: 1.5rem;
+}
+
+.field {
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(250, 222, 198);
+}
+
+.field .field__beach-ball {
+    position: absolute;
+    right: 10%;
+    bottom: 20%;
+}
+
+.field .field__tree {
+    position: absolute;
+    left: calc(50% - 100px);
+    bottom: 25%;
+    fill: #805333;
+}
+
+.field .field__tree .field__tree_log {
+    animation: clipping-appear 0.5s ease-in-out 1.5s both;
+    
+}
+
+.coconut .coconut__1 {
+    animation: appear 0.3s ease-out 1.8s both;
+}
+
+.coconut .coconut__2 {
+    animation: appear 0.3s ease-out 2s both;
+}
+
+.field__tree .tree-leafs {
+    animation: appear 0.3s ease-out 2.2s both;
+}
+
+.field .field__woman {
+    position: absolute;
+    right: 15%;
+    bottom: 0;
+    width: 200px;
+}
+
+.field .field__parasol {
+    position: absolute;
+    animation: move-to-right 0.6s ease-out 1.5s both;
+}
+
+.hero-title {
+    animation: appear 1.5s ease-in-out 0.5s both;
+}
+
+.hero-title .hero-title__high {
+    position: absolute;
+    top: calc(70% - 300px);
+    left: 10%;
+}
+
+.hero-title .hero-title__low {
+    position: absolute;
+    top: calc(70% - 240px);
+    left: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ESTILOS SVG */
+
+.beach-container .field__beach-ball .yellow-stripes {
+    fill: #f3d55b;
+}
+
+.beach-container .field__beach-ball {
+    animation: move-to-left 0.6s ease-out 1.5s both;
+}
+
+.beach-container .sky .sky__sun .sky__sun__circle {
+    animation: sun-circle 1s ease-in-out 0s forwards;
+
+}
+
+.beach-container .sky .sky__sun {
+    width: 200px;
+    height: auto;
+    animation: appear 1.5s ease-in-out 0s forwards;
+}
+
+
+/* KEYFRAMES */
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    70% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes sun-circle {
+    0% {
+        r: 0;
+    }
+
+    80% {
+        r: 180;
+    }
+
+    100% {
+        r: 150;
+    }
+}
+
+@keyframes move-to-right {
+    0% {
+        left: -40%;
+    }
+
+    40% {
+        left: 0%;
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+@keyframes move-to-left {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+
+    0% {
+        right: -40%;
+    }
+
+    40% {
+        right: 0%;
+    }
+
+    100% {
+        right: 10%;
+    }
+}
+
+@keyframes clipping-appear {
+    0% {
+        clip-path:polygon(100% 100%, 80% 0%, 100% 100%, 0% 100%);
+    }
+
+    100% {
+            clip-path:polygon(0% 0%, 80% 0%, 100% 100%, 0% 100%);
+    }
+}
+
+
